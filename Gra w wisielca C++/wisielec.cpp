@@ -1,4 +1,4 @@
-i#include <iostream>
+#include <iostream>
 #include <string>
 #include <fstream>
 #include <conio.h>
@@ -373,14 +373,14 @@ void subMenu(void)
 		case 2:
 			system("cls");
 			cout<<"Kategoria:  Ogolne"<<endl<<endl<<endl;
-			losowanie ("database/Ogolne.txt");
+			losowanie ("database/dane.txt");
 			Odgadywanie ();
 		break;
 		
 		case 3:
 			system("cls");
 			cout<<"Kategoria:  Wlasne"<<endl<<endl<<endl;
-			losowanie ("database/wlasne.txt");
+			losowanie ("database/test.txt");
 			Odgadywanie ();
 		break;
 		
